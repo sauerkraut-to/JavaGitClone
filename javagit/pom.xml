@@ -1,19 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-    </parent>
-
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.github.bit-man</groupId>
-    <artifactId>javagit</artifactId>
+    <groupId>to.sauerkraut</groupId>
+    <artifactId>jgitclone</artifactId>
     <packaging>jar</packaging>
-    <version>1.ALPHA.0-SNAPSHOT</version>
-    <name>Swiss Army Java Git</name>
-    <description>Swiss Army JavaGit is a Java API that provides access to git repositories</description>
-    <url>http://bit-man.github.io/SwissArmyJavaGit/</url>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>Java Git Clone</name>
+    <description>Java Git Clone allows cloning git repos using system git. Setting clone depth is possible.</description>
+    <url>https://github.com/sauerkraut-to/JavaGitClone/</url>
     <licenses>
         <license>
             <name>GNU LGPL v2.1</name>
@@ -22,17 +16,16 @@
         </license>
     </licenses>
 
-    <scm>
-        <connection>scm:git:https://github.com/bit-man/SwissArmyJavaGit.git</connection>
-        <developerConnection>scm:git:https://github.com/bit-man/SwissArmyJavaGit.git</developerConnection>
-        <url>https://github.com/bit-man/SwissArmyJavaGit.git</url>
-    </scm>
-
     <developers>
         <developer>
             <name>Víctor A. Rodríguez</name>
             <email>victor@bit-man.com.ar</email>
             <url>http://the-dailynerd.blogspot.com/</url>
+        </developer>
+        <developer>
+            <name>sauerkraut.to</name>
+            <email>gutsverwalter@sauerkraut.to</email>
+            <url>http://sauerkraut.to/</url>
         </developer>
     </developers>    
     
