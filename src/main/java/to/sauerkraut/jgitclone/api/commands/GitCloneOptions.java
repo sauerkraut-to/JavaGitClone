@@ -23,10 +23,6 @@ import java.util.List;
  * A class to manage passing options to the <code>GitClone</code> command.
  */
 public class GitCloneOptions extends OptionsBase {
-    
-    public GitCloneOptions() {
-        setDepth(0);
-    }
 
     public void setDepth(int depth) {
         setOption(Option.DEPTH, depth);
@@ -37,7 +33,7 @@ public class GitCloneOptions extends OptionsBase {
     }
     
     private enum Option implements ICommandOption {
-        DEPTH("--depth", !Option.HAS_EQUALS, 0);
+        DEPTH("--depth", !Option.HAS_EQUALS, 1);
         public static final String NO_OPTION_SET = "";
 
         public static final boolean HAS_EQUALS = true;
